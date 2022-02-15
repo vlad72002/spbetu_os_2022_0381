@@ -7,7 +7,7 @@ git fetch NikitaEfimov0   # Ефимов
 #git fetch IoninaKsu       # Ионина        
 #git fetch KiriltsevDaniil # Кирильцев     
 #git fetch Pavel7004       # Ковалёв       
-#git fetch elithium4       # Короткина     
+git fetch elithium4       # Короткина     
 #git fetch Dmitr-Kotov     # Котов         
 #git fetch Sedoy1          # Крашенинников 
 #git fetch magnitovsergey  # Магнитов      
