@@ -1,7 +1,7 @@
 
-AStack    
-SEGMENT  STACK
-          DW 512 dup(?)    
+
+AStack    SEGMENT  STACK
+          DW 512 DUP(?)    
 AStack    ENDS
 
 DATA      SEGMENT
@@ -32,7 +32,7 @@ DATA ENDS
 CODE      SEGMENT
           ASSUME CS:CODE, DS:DATA, SS:AStack
 		  
-;печать сообщения
+;РїРµС‡Р°С‚СЊ СЃРѕРѕР±С‰РµРЅРёСЏ
 WRITEMESSAGE PROC Near
 mov AH,09h
 int 21h
@@ -40,7 +40,7 @@ ret
 WRITEMESSAGE ENDP		  
 
 BYTE_TO_DEC PROC near
-; перевод в 10с/с, SI - адрес поля младшей цифры
+; РїРµСЂРµРІРѕРґ РІ 10СЃ/СЃ, SI - Р°РґСЂРµСЃ РїРѕР»СЏ РјР»Р°РґС€РµР№ С†РёС„СЂС‹
    push CX
    push DX
    xor AH,AH
